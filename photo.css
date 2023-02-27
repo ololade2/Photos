@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+}
+.logo{
+    background-image: linear-gradient(to right, grey, gold);
+}
+nav{
+    background-color: chocolate;
+    color: rgb(17, 16, 16);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    /* position: static; */
+}
+#home:hover{
+    color: gold;
+    cursor: pointer;
+}
+#about:hover{
+    cursor: pointer;
+    color: gold;
+}
+#cat:hover{
+    cursor: pointer;
+    color: gold;
+}
+#cont:hover{
+    cursor: pointer;
+    color: gold;
+}
+li{
+  display: inline;
+  padding: 15px;
+  
+}
+.burger{
+    /* background-color: white; */
+    width: 30px;
+    display: none;
+}
+.burger1{
+    width: 28px;
+    height: 28px;
+}
+.box{
+    width: 100%;
+    height: 80vh;
+    animation-name: joy;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    background-image: url(woman3.jpg);
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+}
+.po{
+    height: 40px;
+    position: relative;
+    width: 100%;
+    /* background-color: rgba(230, 157, 130, 0.616); */
+    background-image: linear-gradient(to right, coral,gold, chocolate, grey);
+    top: 20px;
+}
+.about{
+    position: relative;
+    /* left: 10px; */
+    font-size: xx-large ;
+    height: 60px;
+    width: 200px;
+    font-weight: bold;
+    margin-left: 600px;
+    background-color: white;
+    top: -20px;
+    padding-left: 40px;
+    padding-top: 6px;
+}
+.dat{
+    width: 500px;
+    height: 300px;
+    /* background-color: rgba(169, 169, 169, 0.637); */
+    background-image: linear-gradient(to right, grey, coral, chocolate);
+    position: relative;
+    left: 30px;
+    top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.bt{
+    width: 8vw;
+    height: 3vh;
+    margin: 20px;
+    border-radius: 10px;
+    border: 0;
+    /* background-color: aquamarine; */
+
+}
+.bt:hover{
+    cursor: pointer;
+    transform: scale(1.1) ;
+}
+.data{
+      width: 600px;
+      height: 400px;
+      position: relative;
+      /* background-color: aqua; */
+      left: 705px;
+      top: -300px;
+}
+.key{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 0px;
+    background-color: rgba(170, 168, 166, 0.418);
+    position: relative;
+    text-align: center;
+}
+.one{
+    left: 40px;
+}
+.two{
+    left: 300px;
+    top: -40px;
+}
+.three{
+    top: -120px;
+}
+.four{
+    left: 250px;
+    top: -170px;
+}
+.key:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, coral,chocolate, gold);
+    cursor: pointer;
+}
+.jacob{
+    width: 100%;
+    height: 80vh;
+    margin-left: 10px;
+    border-radius:40px ;
+}
+#lok{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin-top: -140px;
+    /* margin: 10px; */
+}
+.bnxn{
+    width: 30%;
+    height: 80vh;
+    /* background-color: aqua; */
+}
+.bnxa{
+    width: 30%;
+    height: 80vh;
+    background-color: rgba(170, 168, 166, 0.418);
+    padding: 8px;
+    margin-left: 80px;
+    border-radius:40px ;
+}
+.bnxa:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, coral,chocolate, gold);
+}
+.bnxe{
+    width: 30%;
+    height: 80vh;
+    /* background-color: rgb(230, 222, 212); */
+    padding: 10px;
+    margin-left: 50px;
+}
+.cody{
+    width: 100%;
+    height: 80vh;
+    border-radius:40px ;
+}
+footer{
+    width: 100%;
+    height: 60vh;
+    /* background-color: darkgrey; */
+    background-image: linear-gradient(to right, darkgrey,chocolate);
+    margin-top: 30px;
+    text-align: center;
+    padding: 80px;
+}
+#fn{
+    width: 15%;
+    height: 8vh;
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+    /* margin-right: -10px; */
+}
+#ln{
+    width: 15%;
+    height: 8vh;
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+    margin-right: -120px;
+}
+#ea{
+    width: 15%;
+    height: 8vh;
+    border: 0;
+    padding: 10px;
+    /* margin-top: 40px; */
+    position: relative;
+    top: 80px;
+    right: 160px;
+
+}
+#su{
+    width: 10%;
+    height: 8vh;
+    border: 0;
+    position: relative;
+    top: 160px;
+    right: 310px;
+}
+#su:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+.book{
+        /* width: 100%; */
+        text-align: center;
+        background-image: linear-gradient(to bottom, grey, coral,burlywood, wheat);
+        /* height: 300px; */
+        /* position: relative; */
+    }
+    img{
+       /* width: 90%; */
+    }
+
+#mine{
+    height: 90vh ;
+    /* justify-content: center; */
+}
+a, #home, #cat:hover{
+    /* color: gold; */
+}
+.btnn{
+    position: absolute;
+    font-size: xx-large;
+    background-color: rgba(34, 32, 32, 0.651);
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+.btnn:hover{
+    background-color: brown;
+}
+.guu{
+    top: 300px;
+    right:10px;
+}
+.gui{
+    top: 300px;
+    left: 10px;
+}
+
+@keyframes joy {
+    0%{
+        background-image: url(woman.jpg);
+    }
+    20%{
+        background-image: url(woman1.jpg);
+    }
+    40%{
+        background-image: url(woman2.jpg);
+    }
+    60%{
+        background-image: url(man.jpg);
+    }
+    80%{
+        background-image: url(ANARCHY_IN_VERSAILLES.jpeg);
+    }
+    100%{
+        background-image: url(cat9.jpeg);
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .burger{
+        display: block;
+    }
+    .burger:hover{
+        cursor: pointer;
+    }
+    ul > li{
+        display: block;
+      }
+      .logo{
+          margin-right: 80px;
+      }
+      ul{
+          position: absolute;
+          color: rgb(15, 15, 15);
+          font-size: x-large;
+          font-weight: bold;
+          /* background-color: rgb(116, 90, 59) ; */
+          left: 0;
+          right: 0;
+          margin:0px 60px ;
+          top: 55px;
+          text-align: end;
+          clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+          transition: 1s all;
+      }
+      .clipped{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: 1s all;
+    }
+    .box{
+        width: 100%;
+        height: 80vh;
+        animation-name: joy;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        background-image: url(ANARCHY_IN_VERSAILLES.jpeg);
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+    }
+    
+    @keyframes joy {
+        0%{
+            background-image: url(Dopamine_JPG.jpeg);
+        }
+        20%{
+            background-image: url(woman5.jpg);
+        }
+        40%{
+            background-image: url(REVOLT.jpeg);
+        }
+      60%{
+        background-image: url(woman4.jpeg);
+      }
+      80%{
+        background-image: url(man1.jpg);
+      }
+      100%{
+        background-image: url(woman6.jpg);
+      }
+    }
+    .po{
+        display: none;
+    }
+    .about{
+        position: relative;
+        font-size: xx-large ;
+        height: 10%;
+        width: 40%;
+        font-weight: 900px;
+        margin-left: 100px;
+        background-color: white;
+        top: 20px;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .dat{
+        width: 400px;
+        height: 350px;
+        /* background-color: rgba(169, 169, 169, 0.637); */
+        background-image: linear-gradient(to right, grey, coral, chocolate);
+        position: relative;
+        left: 10px;
+        top: 30px;
+        border-radius: 5px; 
+        margin-left: 30px;
+    }
+    .bt{
+        width: 17vw;
+        height: 3vh;
+        margin: 20px;
+        border-radius: 10px;
+        border: 0;
+    }
+     .key .one, .two, .three, .four{
+        display: none;
+     }
+     .data{
+        display: none;
+     }
+     #lok{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        margin-top: 60px;
+    }
+    .jacob{
+        width: 200px;
+        height: 50vh;
+        /* margin-left: 10px; */
+        border-radius:40px ;
+    }
+    .bnxa{
+        width: 220px;
+        height: 69vh;
+        background-color: rgba(170, 168, 166, 0.418);
+        /* padding: 8px; */
+        margin-left: 40px;
+        /* margin-right: -10px; */
+        z-index: 1;
+        border-radius: 40px;
+        font-size: 12px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .cody{
+        width: 200px;
+        height: 50vh;
+        border-radius:40px ;
+        margin-left: -70px;
+        /* padding-right: 40px ; */
+        /* margin-right: 70px; */
+    }
+    footer{
+        margin-top: 130px;
+        height: 90vh;
+    }
+    #fn{
+        width: 60%;
+        height: 8vh;
+        border: 0;
+        padding: 10px;
+        margin: 5px;
+        margin-left: 43px;
+    }
+    #ln{
+        width: 60%;
+        height: 8vh;
+        border: 0;
+        padding: 10px;
+        margin: 5px;
+        position: relative;
+        top: 10px;
+        right: -20px;
+    }
+    #ea{
+        width: 60%;
+        height: 8vh;
+        border: 0;
+        padding: 10px;
+        position: relative;
+        top: 30px;
+        right: -70px;
+    
+    }
+    #su{
+        width: 30%;
+        height: 8vh;
+        border: 0;
+        position: relative;
+        top: 90px;
+        right: 90px;
+    }
+    img, #mine{
+        /* width: auto; */
+       width: 81%;
+       height: 88vh;
+       /* z-index: -1; */
+       /* display: none; */
+       /* height: 50vh; */
+        /* overflow-x: hidden; */
+    }
+    .burger1{
+      /* display: flex; */
+    }
+    }

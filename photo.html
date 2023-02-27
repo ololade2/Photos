@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO</title>
+    <link rel="stylesheet" href="photo.css">
+    <!-- <link rel="stylesheet" href="https://iconscout.com/icon/menu-1767818"> -->
+</head>
+<body>
+    <nav>
+     <div class="logo"> <h2> PHOTOCLICK </h2> </div>
+            <ul>
+                <li id="home"> <a href="#home"></a>Home </li>
+                <li id="about">  About</li>
+                <li id="cat"> <a href="catalogue.html">Catalogue</a> </li>
+                <li id="cont">Contact Us</li>
+            </ul>
+            <div class="burger"> 
+                <img class="burger1" src="menu.png" alt="">
+            </div>
+        </nav>
+           <div class="box"></div>
+            <div id="big">
+            <p class="po"></p>
+           <div class="about"> About Us</div>
+        </div>
+         <div class="dan">
+             <div class="dat"> 
+                <p> <br> Photography is an art</p> <br>
+                <h1> In photography there is a reality so subtle that it becomes more real than reality.</h1>
+                 <p> <br> <br> The best thing about a picture is that it never changes, even when the people in it do. </p>
+                 <button class="bt"> View More </button>
+             </div>
+            </div>
+             <div class="data"> 
+                 <div class="key one"> <h3>Photo Shooting</h3> <p> <br> We have the best concept
+                     and best equipment for our photoshoot session.</p></div>
+                 <div class="key two"><h3>Video Shooting </h3> <p> <br> We have the best video coverage.</p></div>
+                 <div class="key three"> <h3>Photo Retouch</h3> <p><br> We use the best equipment for our Retouch. </p></div>
+                 <div class="key four"> <h3>Drone Shooting</h3> <p><br> Our drone coverage will wow you. </p></div>
+             </div>
+                <div id="lok">
+                     <div class="bnxn">
+                     <img class="jacob" src="jacob.jpg" alt=""></div>
+                     <div class="bnxa"> <h3> <br> “When I have a camera in my hand, I know no fear.” <br> <br> <br></h3>
+                       <h3>“Essentially what photography is is life lit up.”</h3> <br> <br> <br>
+                        <h3>“The best thing about a picture is that it never changes, even when the people in it do.” <br> <br> <br></h3>  
+                          <h3> “Photographs open doors into the past, but they also allow a look into the future.” <br> <br> <br></h3>  
+                           <h3> “Photography to me is catching a moment which is passing, and which is true.” <br> <br> <br> </h3>
+                           <h3>“Sharpness is a bourgeois concept.”</h3>     </div>
+                     <div class="bnxe"> 
+                        <img class="cody" src="cody.jpg" alt="">
+                     </div>
+                </div>
+                    <footer >
+                      <h1>UPDATES AND NEW STUFF</h1> <br>
+                      <h4>Sign up here for my newsletter where I let folks know what I'm cooking up</p> <br>
+                        <input id="fn" type="text" placeholder = "First Name">  
+                        <input type="text" placeholder="Last Name" id="ln">
+                       <input id="ea" type="text" placeholder="Email Address" >
+                       <button id="su">Sign Up</button>
+                    </footer>
+              
+           
+
+
+
+
+
+
+
+
+        <script>
+            head = document.querySelector('body')
+            btn = document.querySelector('.burger');
+            navlist = document.querySelector('ul');
+            
+            
+            btn.addEventListener('click', ()=> {
+                navlist.style.clippath.polygon =
+                 navlist.classList.toggle('clipped')
+            })
+
+
+        </script>
+</body>
+</html>

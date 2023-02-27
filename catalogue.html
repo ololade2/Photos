@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="photo.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"> <h2> PHOTOCLICK </h2> </div>
+               <ul>
+                   <li id="home"> <a href="photo.html">Home</a></li>
+                   <li id="about">  About</li>
+                   <li id="cat">  Catalogue</li>
+                   <li id="cont">Contact Us</li>
+               </ul>
+               <div class="burger"> 
+                   <img class="burger1" src="menu.png" alt="">
+               </div>
+           </nav>
+            <div class="book">
+                <img id="mine" src="Dopamine_JPG.jpeg" alt="">
+                <div class="btnn guu">&#62</div>
+                <div class="btnn gui">&#60</div>
+            </div>
+
+
+
+
+           <script>
+           proff = [
+              {
+                id: "one",
+                pic: "Dopamine_JPG.jpeg"
+              },
+              {
+                id :"two",
+                pic: "cat.jpeg"
+              },
+              {
+                id: "three",
+                pic: "cata.jpeg"
+              },
+              {
+                id : "four",
+                pic: "cat11.jpeg"
+              },
+              {
+                id: "five",
+                pic: "cat2.jpg"
+              },
+              {
+                id : "six",
+                pic: "cat3.jpg"
+              },
+              {
+                id: "seven",
+                pic: "cat4.jpg"
+              },
+              {
+                id: "eight",
+                pic: "cat8.jpg"
+              },
+              {
+                id: "nine",
+                pic: "cat6.jpg"
+              },
+              {
+                id: "ten",
+                pic: "cat7.jpg"
+              },
+              {
+                id: "eleven",
+                pic: "cat9.jpeg"
+              },
+              {
+                id: "twelve",
+                pic: "cata1.jpeg"
+              },
+              {
+                id: "thirteen",
+                pic: "man1.jpg"
+              },
+              {
+                id: "forteen",
+                pic: "virtue.jpeg"
+              },
+              {
+                id: "fifteen",
+                pic: "ashes.jpeg"
+              },
+              {
+                id: "sixteen",
+                pic: "REVOLT.jpeg"
+              },
+              
+
+
+
+
+
+
+ 
+           ]
+
+
+
+
+
+            head = document.querySelector('body')
+            btn = document.querySelector('.burger');
+            navlist = document.querySelector('ul');
+            
+            
+            btn.addEventListener('click', ()=> {
+                navlist.style.clippath
+                 navlist.classList.toggle('clipped')
+            })
+            //  console.log()
+
+
+            btnn1 = document.querySelector(".guu")
+        btnn2 = document.querySelector(".gui")
+        img = document.querySelector("#mine")
+        count = 0;
+        btnn1.addEventListener("click", ()=> {
+            count++
+            value = proff[count]
+            img.src = value.pic;
+            
+            if (count == (proff.length -1)){
+                count = -1
+            }
+        })
+        // count = -1;
+        btnn2.addEventListener("click", ()=>{
+            count--;
+            value = proff[count]
+            img.src =value.pic;
+            
+
+            if (count == (proff.length -2)){
+                count --
+            }
+        })
+
+        </script>
+</body>
+</html>
